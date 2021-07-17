@@ -294,6 +294,7 @@ body{
   .flip-card-back {
     color: white;
     transform: rotateY(180deg);
+    -ms-transform:rotateY(180deg);
     z-index: 1;
   }
   
@@ -305,9 +306,11 @@ body{
   @keyframes rotate {
     0%, 60% {
       transform: rotateY(0);
+      -ms-transform:rotateY(0);
     }
     10%, 50% {
       transform: rotateY(180deg);
+      -ms-transform:rotateY(180deg);
     }
   }
 /* end flip */
