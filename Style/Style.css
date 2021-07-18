@@ -193,7 +193,7 @@ body{
     font-weight: 100 !important;
 }
 .garante .info-2{
-    font-size: 1.7em;
+    font-size: 1.6em;
     margin-top: 40px;
     font-weight: 100 !important;
     color : #ccc;
@@ -236,6 +236,7 @@ body{
 }
 .text-g{
     font-size: 1.2em;
+    color: white;
 }
 .category img{
     width: 65px;
