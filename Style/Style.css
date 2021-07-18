@@ -74,6 +74,10 @@ body{
     width: 75%;
     margin: 0 auto; 
 }
+.main3{
+    width: 75%;
+    margin: 0 auto; 
+}
 .mx-5{
     margin: 10px;
 }
@@ -219,20 +223,6 @@ body{
 .img-garante .right img{
     width: 200px;
 }
-/* .img-garante div{
-    font-size: 2.2em;
-    color : #ccc;
-    display: flex;
-    flex-direction: column;
-}
-.img-garante .mention img{
-  width: 200px;
-}
-.img-garante .info{
-    width: 300px;
-    font-size: 1em;
-    padding-left: 50px;
-} */
 .info-more{
     font-size: 1.7em;
     color : #ccc;
@@ -366,6 +356,16 @@ body{
     .img-garante .left img{
        width: 300px;
     }
+    .main-in{
+        padding: 60px 30px;
+        position: relative;
+        margin-top: 60px;
+    }
+
+    .main3{
+        width: 90%;
+        margin: 0 auto; 
+    }
 }
 @media screen and (max-width:750px){
     .watches img{
@@ -374,6 +374,12 @@ body{
     .watches a span{
         font-size: 1em;
     }
+}
+
+@media screen and (max-width:900px){
+    .off{
+        grid-template-columns: repeat(2 , 1fr);
+    } 
 }
 @media screen and (max-width:600px){
     .title-off h2{
@@ -397,13 +403,10 @@ body{
     .main-in{
         padding: 30px;
     }
-}
-@media screen and (max-width:900px){
     .off{
-        grid-template-columns: repeat(2 , 1fr);
+        grid-template-columns: repeat(1 , 1fr);
     } 
 }
-
 @media screen and (max-width:400px){
     .title-off h2{
         font-size: 1em;
@@ -411,13 +414,16 @@ body{
     .title-off{
         bottom: 0%;
     }
-    .off{
-        grid-template-columns: repeat(1 , 1fr);
-    } 
     .img-garante .left img{
         width: 230px;
      }
      .flip-card{
         height: 150px;
+    }
+    .borders-off{
+        display: none;
+    }
+    .main-in{
+        padding: 0;
     }
 }
